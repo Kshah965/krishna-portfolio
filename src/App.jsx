@@ -61,28 +61,22 @@ const SKILLS = {
 
 const BEYOND = [
   {
-    icon: '🏋️',
-    category: 'Sports & Fitness',
-    title: 'Competitive Athlete',
-    desc: 'Add your sport/activity here — e.g. "Varsity basketball player, 3 seasons. Led team to regional finals." Discipline from sport translates directly to engineering: consistency, coachability, performing under pressure.',
-  },
-  {
     icon: '🎨',
     category: 'Creative',
-    title: 'Music / Art',
-    desc: 'Add your creative pursuit here — e.g. "Self-taught guitarist for 6 years. Produce beats in Ableton." Creativity drives better product thinking and makes technical work more human.',
+    title: 'Painting & Music',
+    desc: 'I paint and play guitar — not as side hobbies, but as a genuine part of how I think. I believe having passions outside your career makes you a more self-aware, creative, and grounded person. Painting gives me a space to slow down and express things that code can\'t. Guitar does the same — there\'s something about learning a instrument that teaches patience and intentionality that carries directly into how I approach hard engineering problems. I think the best engineers are people who are deeply in touch with themselves, and that comes from having things you love outside of work.',
   },
+  {
+    icon: '🏃',
+    category: 'Sports & Fitness',
+    title: 'Athlete at Heart',
+    desc: 'I played competitive field hockey from middle school through high school and still play recreationally — it taught me how to perform under pressure, communicate fast, and trust a team. I also go to the gym regularly focused on building strength, run, and play football. I\'m a big football fan too. Sport has shaped how I work more than anything else — the discipline, the resilience after a loss, and the ability to show up consistently even when it\'s hard.',
+  },Hey.
   {
     icon: '🤝',
-    category: 'Leadership',
-    title: 'Club / Org Leadership',
-    desc: 'Add your leadership role here — e.g. "VP of UMass CS Club, grew membership 40%." Leading peers in a non-work context shows ownership and communication skills.',
-  },
-  {
-    icon: '💼',
-    category: 'Customer-Facing',
-    title: 'Service & Retail',
-    desc: 'Add your job here — e.g. "Barista at local café during freshman year. Managed high-volume rushes and built regulars\' loyalty." Real-world empathy and communication, not just code.',
+    category: 'Leadership & Community',
+    title: 'Clubs & Organizations',
+    desc: 'I\'m a member of Rewriting the Code and CodePath — two organizations focused on supporting underrepresented students in tech. I also served as Events Coordinator for a cultural club at UMass, organizing events that brought students together and celebrated diverse backgrounds. Being part of these communities keeps me connected to something bigger than just writing code — and running events taught me organization, communication, and how to bring people together around a shared goal.',
   },
 ];
 
