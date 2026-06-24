@@ -13,7 +13,7 @@ const PROJECTS = [
     stack: ['React', 'FastAPI', 'Supabase', 'TypeScript'],
     desc: 'Full-stack community resource-sharing platform enabling donors to list and affected individuals to request essential items during crises. Real-time updates, auth, and row-level security.',
     github: 'https://github.com/Kshah965',
-    highlight: 'Crisis Response',
+    highlight: 'Full Stack',
   },
   {
     name: 'Fatigue Detection Helmet',
@@ -23,18 +23,32 @@ const PROJECTS = [
     highlight: 'Research',
   },
   {
-    name: 'Random Forest Classifier',
-    stack: ['Python', 'NumPy', 'Pandas', 'Scikit-learn'],
-    desc: 'Engineered Decision Tree and Random Forest from scratch — entropy splitting, bootstrap sampling, stratified k-fold CV. 96% accuracy on Wisconsin Breast Cancer dataset.',
-    github: 'https://github.com/Kshah965',
-    highlight: 'ML from Scratch',
-  },
-  {
     name: 'Cloud Storage Shell',
     stack: ['C', 'C++', 'POSIX', 'pthreads', 'GoogleTest'],
     desc: 'Unix-like shell with multi-stage pipelines and a multithreaded cloud storage system over TCP sockets. 370 ops/sec, 2ms upload latency, zero race conditions across 8+ concurrent clients.',
     github: 'https://github.com/Kshah965',
     highlight: 'Systems',
+  },
+  {
+    name: 'Neural Network from Scratch',
+    stack: ['Python', 'NumPy'],
+    desc: 'Fully connected feedforward neural network in pure NumPy. Implements forward pass, backpropagation, cross-entropy loss, L2 regularization, and gradient descent — no ML frameworks.',
+    github: 'https://github.com/Kshah965/neural_network',
+    highlight: 'ML from Scratch',
+  },
+  {
+    name: 'Random Forest from Scratch',
+    stack: ['Python', 'NumPy', 'Pandas'],
+    desc: 'Ensemble of custom Decision Trees with bootstrap sampling, sqrt feature subsampling, stratified k-fold CV, and macro-averaged precision/recall/F1. 96% accuracy on Wisconsin Breast Cancer dataset.',
+    github: 'https://github.com/Kshah965/random_forest',
+    highlight: 'ML from Scratch',
+  },
+  {
+    name: 'Multinomial Naive Bayes from Scratch',
+    stack: ['Python'],
+    desc: 'Text sentiment classifier using log-space arithmetic and Laplace smoothing — standard library only. Implements prior/conditional probabilities, confusion matrix, precision, and recall.',
+    github: 'https://github.com/Kshah965/naive_bayes',
+    highlight: 'ML from Scratch',
   },
 ];
 
