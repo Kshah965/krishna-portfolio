@@ -71,13 +71,12 @@ const BEYOND = [
     category: 'Sports & Fitness',
     title: 'Athlete at Heart',
     desc: 'I played competitive field hockey from middle school through high school and still play recreationally — it taught me how to perform under pressure, communicate fast, and trust a team. I also go to the gym regularly focused on building strength, run, and play football. I\'m a big football fan too. Sport has shaped how I work more than anything else — the discipline, the resilience after a loss, and the ability to show up consistently even when it\'s hard.',
-  },Hey.
+  },
   {
     icon: '🤝',
     category: 'Leadership & Community',
     title: 'Clubs & Organizations',
-    desc: 'I\'m a member of Rewriting the Code and CodePath — two organizations focused on supporting underrepresented students in tech. I also served as Events Coordinator for a cultural club at UMass, organizing events that brought students together and celebrated diverse backgrounds. Being part of these communities keeps me connected to something bigger than just writing code — and running events taught me organization, communication, and how to bring people together around a shared goal.',
-  },
+    desc: "I'm a member of Rewriting the Code and CodePath — two organizations focused on supporting underrepresented students in tech. I also served as Events Coordinator for a cultural club at UMass, organizing events that brought students together and celebrated diverse backgrounds. Being part of these communities keeps me connected to something bigger than just writing code — and running events taught me organization, communication, and how to bring people together around a shared goal.",  },
 ];
 
 // ── Typewriter hook ───────────────────────────────────────────────────────────
