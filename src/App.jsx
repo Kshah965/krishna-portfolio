@@ -55,7 +55,7 @@ const PROJECTS = [
 const SKILLS = {
   'Languages': ['Python', 'C', 'C++', 'Java', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
   'AI / ML': ['PyTorch', 'TensorFlow', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'],
-  'Systems & Backend': ['POSIX/Linux', 'TCP Sockets', 'pthreads', 'FastAPI', 'PostgreSQL', 'Supabase', 'MongoDB'],
+  'Systems & Backend': ['POSIX/Linux', 'TCP Sockets', 'pthreads', 'FastAPI', 'PostgreSQL', 'Supabase', 'MongoDB', 'Firebase'],
   'Tools': ['Git', 'Docker', 'VS Code', 'gdb', 'GoogleTest'],
 };
 
@@ -63,20 +63,24 @@ const BEYOND = [
   {
     icon: '🎨',
     category: 'Creative',
-    title: 'Painting & Music',
-    desc: 'I paint and play guitar — not as side hobbies, but as a genuine part of how I think. I believe having passions outside your career makes you a more self-aware, creative, and grounded person. Painting gives me a space to slow down and express things that code can\'t. Guitar does the same — there\'s something about learning a instrument that teaches patience and intentionality that carries directly into how I approach hard engineering problems. I think the best engineers are people who are deeply in touch with themselves, and that comes from having things you love outside of work.',
+    tagColor: { bg: '#E6F1FB', text: '#185FA5' },
+    title: 'Painting & Guitar',
+    desc: 'Creative outlets that keep me grounded and thinking differently. Painting and music teach the same patience and intentionality that engineering demands.',
   },
   {
     icon: '🏃',
-    category: 'Sports & Fitness',
-    title: 'Athlete at Heart',
-    desc: 'I played competitive field hockey from middle school through high school and still play recreationally — it taught me how to perform under pressure, communicate fast, and trust a team. I also go to the gym regularly focused on building strength, run, and play football. I\'m a big football fan too. Sport has shaped how I work more than anything else — the discipline, the resilience after a loss, and the ability to show up consistently even when it\'s hard.',
+    category: 'Sports',
+    tagColor: { bg: '#EAF3DE', text: '#3B6D11' },
+    title: 'Athlete',
+    desc: 'Competitive field hockey from middle school through high school, gym, running, and football. Sport built the discipline and team instinct I bring to engineering.',
   },
   {
     icon: '🤝',
-    category: 'Leadership & Community',
-    title: 'Clubs & Organizations',
-    desc: "I'm a member of Rewriting the Code and CodePath — two organizations focused on supporting underrepresented students in tech. I also served as Events Coordinator for a cultural club at UMass, organizing events that brought students together and celebrated diverse backgrounds. Being part of these communities keeps me connected to something bigger than just writing code — and running events taught me organization, communication, and how to bring people together around a shared goal.",  },
+    category: 'Leadership',
+    tagColor: { bg: '#EEEDFE', text: '#534AB7' },
+    title: 'Community & Clubs',
+    desc: 'Rewriting the Code, CodePath, and Events Coordinator for a cultural club at UMass. Community keeps me connected to something bigger than just writing code.',
+  },
 ];
 
 // ── Typewriter hook ───────────────────────────────────────────────────────────
@@ -153,7 +157,7 @@ function Hero() {
     <section className="hero" id="about">
       <div className="hero__bg-grid" />
       <div className="hero__content">
-        <p className="hero__eyebrow mono">Available for <span className="accent">Summer 2026</span> · STEM OPT eligible</p>
+        <p className="hero__eyebrow mono">Available for <span className="accent">Fall 2026 and onwards</span> · </p>
         <h1 className="hero__name">Krishna Shah</h1>
         <div className="hero__typewriter mono">
           <span>{typed}</span><span className="cursor">|</span>
@@ -171,7 +175,7 @@ function Hero() {
         <div className="hero__meta">
           <span>📍 Amherst, MA</span>
           <span>🎓 Expected May 2027</span>
-          <span>🇺🇸 STEM OPT · No sponsorship needed year 1</span>
+        <span>🇺🇸 UNIVERSITY OF MASSACHUSETTS AMHERST🇺🇸 </span>
         </div>
       </div>
     </section>
@@ -304,8 +308,10 @@ function BeyondCode() {
           {BEYOND.map(b => (
             <div key={b.category} className="card beyond__card">
               <span className="beyond__icon">{b.icon}</span>
-              <span className="badge" style={{ marginBottom: '0.5rem' }}>{b.category}</span>
               <h3 className="beyond__title">{b.title}</h3>
+              <span className="beyond__tag" style={{ background: b.tagColor.bg, color: b.tagColor.text }}>
+                {b.category}
+              </span>
               <p className="beyond__desc">{b.desc}</p>
             </div>
           ))}

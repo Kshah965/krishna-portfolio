@@ -130,10 +130,7 @@
   font-weight: 700; letter-spacing: -0.04em; line-height: 1;
   margin-bottom: 1rem;
 }
-.hero__typewriter {
-  font-size: clamp(1.1rem, 3vw, 1.5rem);
-  color: var(--muted); margin-bottom: 1.5rem; min-height: 2em;
-}
+
 .cursor {
   animation: blink 1s step-end infinite; color: var(--accent);
 }
@@ -246,4 +243,10 @@
   .timeline::before { display: none; }
   .timeline__dot { display: none; }
   .timeline__item { flex-direction: column; }
+}
+
+.beyond__tag {
+  display: inline-block; font-size: 11px;
+  padding: 2px 8px; border-radius: 4px;
+  margin-bottom: 8px; font-family: var(--font-mono);
 }
