@@ -208,6 +208,23 @@ function Experience() {
             </div>
           </div>
           <div className="timeline__item">
+            <div className="timeline__dot" />
+            <div className="timeline__card card">
+              <div className="timeline__header">
+                <div>
+                  <h3>Orientation & Transitions Leader</h3>
+                  <p className="muted">University of Massachusetts Amherst</p>
+                </div>
+                <span className="badge">May 2024 – Jan 2025</span>
+              </div>
+              <ul className="timeline__bullets">
+                <li>Served as a primary point of contact for <strong>thousands of incoming students and families</strong>, communicating university resources, policies, and processes clearly under high-volume conditions</li>
+                <li>Collaborated within a <strong>team of 30 leaders</strong> to plan and facilitate orientation icebreakers, group activities, and check-in logistics — coordinating moving parts across large groups with tight schedules</li>
+                <li>Strengthened cross-functional communication and teamwork skills directly applicable to engineering team environments — translating complex information to diverse audiences quickly and clearly</li>
+              </ul>
+            </div>
+          </div>
+          <div className="timeline__item">
             <div className="timeline__dot timeline__dot--edu" />
             <div className="timeline__card card">
               <div className="timeline__header">
